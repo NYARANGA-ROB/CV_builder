@@ -11,6 +11,7 @@ export default defineConfig({
     })
   ],
   
+  
   optimizeDeps: {
     include: ["@mui/material/Tooltip", "@emotion/styled"]
   },
@@ -21,3 +22,4 @@ export default defineConfig({
     middlewareMode: false
   }
 });
+
