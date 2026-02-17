@@ -17,6 +17,7 @@
         "format": "prettier --write \"**/*.{ts,tsx,md,css,json,js,jsx}\"",
         "prepare": "husky"
     },
+    
     "dependencies": {
         "@cyntler/react-doc-viewer": "^1.17.0",
         "@emotion/react": "^11.11.4",
@@ -91,5 +92,6 @@
         "vitest": "^2.0.2"
     }
 }
+
 
 
