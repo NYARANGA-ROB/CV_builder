@@ -1,5 +1,4 @@
 version: '3.9'
-
 services:
   app:
     build: .
@@ -8,3 +7,4 @@ services:
       - '8000:8000'
     environment:
       CORESETTINGS_LOCAL_SETTINGS_PATH: 'local/settings.dev.py'
+
