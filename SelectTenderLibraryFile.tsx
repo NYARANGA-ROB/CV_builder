@@ -31,7 +31,6 @@ const SelectTenderLibraryFile = ({
   const paginate = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
-
   const fetchDocuments = async () => {
     try {
       if (bid_id) {
@@ -150,6 +149,7 @@ const SelectTenderLibraryFile = ({
 };
 
 export default withAuth(SelectTenderLibraryFile);
+
 
 
 
