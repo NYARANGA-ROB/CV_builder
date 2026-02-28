@@ -8,7 +8,6 @@ const Dotenv = require("dotenv-webpack");
 const urlDev = "https://localhost:3000/";
 const urlProd = "https://app.mytender.io:3000"; // CHANGE THIS TO YOUR PRODUCTION DEPLOYMENT LOCATION
 const path = require("path");
-
 async function getHttpsOptions() {
   const httpsOptions = await devCerts.getHttpsServerOptions();
   return { ca: httpsOptions.ca, key: httpsOptions.key, cert: httpsOptions.cert };
@@ -126,3 +125,4 @@ module.exports = async (env, options) => {
 
   return config;
 };
+
