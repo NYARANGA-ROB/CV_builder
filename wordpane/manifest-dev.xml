@@ -13,6 +13,7 @@
     <AppDomain>https://app.mytender.io</AppDomain>
   </AppDomains>
   <Hosts>
+    
     <Host Name="Document"/>
   </Hosts>
   <DefaultSettings>
@@ -82,4 +83,5 @@
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
+
 </OfficeApp>
