@@ -1,6 +1,5 @@
 require("@testing-library/jest-dom");
 require("dotenv").config({ path: ".env.test" });
-
 // Existing window.matchMedia mock
 Object.defineProperty(window, "matchMedia", {
   writable: true,
@@ -21,6 +20,7 @@ window.IntersectionObserver = jest.fn().mockImplementation(() => ({
   unobserve: jest.fn(),
   disconnect: jest.fn()
 }));
+
 
 
 
