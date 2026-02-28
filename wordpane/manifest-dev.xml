@@ -16,6 +16,7 @@
     
     <Host Name="Document"/>
   </Hosts>
+  
   <DefaultSettings>
     <SourceLocation DefaultValue="https://word-dev.mytender.io/taskpane.html"/>
   </DefaultSettings>
@@ -85,3 +86,4 @@
   </VersionOverrides>
 
 </OfficeApp>
+
