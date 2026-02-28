@@ -7,7 +7,6 @@
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
     "module": "CommonJS",
-    
     "moduleResolution": "node",
     "noImplicitReturns": false,
     "noUnusedParameters": false,
@@ -31,4 +30,5 @@
     "files": true
   }
 }
+
 
