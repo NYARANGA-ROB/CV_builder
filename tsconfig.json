@@ -17,7 +17,6 @@
     /* Testing Configuration */
     "esModuleInterop": true, // Needed for Jest
     "allowJs": true, // Allow JavaScript files to be compiled
-
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
@@ -27,5 +26,6 @@
   "include": ["src", "**/*.ts", "**/*.tsx", "jest.setup.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
+
 
 
