@@ -1,5 +1,4 @@
 /* eslint-disable no-undef */
-
 const devCerts = require("office-addin-dev-certs");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -125,4 +124,5 @@ module.exports = async (env, options) => {
 
   return config;
 };
+
 
