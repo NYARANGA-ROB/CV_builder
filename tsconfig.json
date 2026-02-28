@@ -7,7 +7,6 @@
     "skipLibCheck": true,
     // Update types to include Jest
     "types": ["vitest/globals", "jest", "@testing-library/jest-dom"],
-
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
@@ -29,3 +28,4 @@
   "include": ["src", "**/*.ts", "**/*.tsx", "jest.setup.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
+
