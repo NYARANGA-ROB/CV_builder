@@ -10,6 +10,7 @@
   <HighResolutionIconUrl DefaultValue="https://word-prod.mytender.io/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://app.mytender.io"/>
   <AppDomains>
+    
     <AppDomain>https://app.mytender.io</AppDomain>
   </AppDomains>
   <Hosts>
@@ -82,4 +83,5 @@
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
+
 </OfficeApp>
