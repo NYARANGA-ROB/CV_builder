@@ -3,7 +3,6 @@ import { useState } from "react";
 import { Button } from "react-bootstrap";
 import './BidStatusMenu.css';
 type BidStatus = "Identification" | "Capture Planning" | "First Review" | "Final Review" | "Submitted";
-
 const BidStatusMenu = ({
   value,
   onChange
@@ -118,3 +117,4 @@ const BidStatusMenu = ({
 
 
 export default BidStatusMenu;
+
