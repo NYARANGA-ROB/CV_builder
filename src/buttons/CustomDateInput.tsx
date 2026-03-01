@@ -30,7 +30,6 @@ const CustomDateInput = ({
     e.preventDefault();
     dateInputRef.current.showPicker();
   };
-
   const handleDateChange = (e) => {
     const newValue = e.target.value;
     const date = new Date(newValue);
@@ -67,5 +66,6 @@ const CustomDateInput = ({
 
 
 export default CustomDateInput;
+
 
 
