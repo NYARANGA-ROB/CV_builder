@@ -6,7 +6,6 @@ import { faEllipsisVertical } from "@fortawesome/free-solid-svg-icons";
 interface ComplianceEllipsisMenuProps {
   onDelete: () => void;
 }
-
 const ComplianceEllipsisMenu: React.FC<ComplianceEllipsisMenuProps> = ({
   onDelete
 }) => {
@@ -74,3 +73,4 @@ const ComplianceEllipsisMenu: React.FC<ComplianceEllipsisMenuProps> = ({
 };
 
 export default ComplianceEllipsisMenu;
+
