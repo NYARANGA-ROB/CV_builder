@@ -13,7 +13,6 @@
     width: 100%;
     padding-right: 35px;
 }
-
 .custom-date-input .calendar-icon {
     position: absolute;
     right: 12px;
@@ -43,4 +42,5 @@
     cursor: not-allowed;
 
 }
+
 
