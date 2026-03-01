@@ -12,7 +12,6 @@ const SelectTenderLibraryFile = ({
   bid_id,
   onFileSelect,
   initialSelectedFiles = []
-  
 }) => {
   const getAuth = useAuthUser();
   const auth = getAuth();
@@ -149,6 +148,7 @@ const SelectTenderLibraryFile = ({
 };
 
 export default withAuth(SelectTenderLibraryFile);
+
 
 
 
