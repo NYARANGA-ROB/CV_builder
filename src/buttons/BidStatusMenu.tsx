@@ -2,7 +2,6 @@ import { Menu, MenuItem } from "@mui/material";
 import { useState } from "react";
 import { Button } from "react-bootstrap";
 import './BidStatusMenu.css';
-
 type BidStatus = "Identification" | "Capture Planning" | "First Review" | "Final Review" | "Submitted";
 
 const BidStatusMenu = ({
@@ -116,5 +115,6 @@ const BidStatusMenu = ({
     </div>
   );
 };
+
 
 export default BidStatusMenu;
