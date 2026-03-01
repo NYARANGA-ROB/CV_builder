@@ -31,7 +31,6 @@ const BidStatusMenu = ({
   const handleClose = () => {
     setAnchorEl(null);
   };
-
   const handleSelect = (status: BidStatus) => {
     onChange(status);
     handleClose();
@@ -115,6 +114,7 @@ const BidStatusMenu = ({
 
 
 export default BidStatusMenu;
+
 
 
 
