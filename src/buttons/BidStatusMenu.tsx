@@ -34,7 +34,6 @@ const BidStatusMenu = ({
     onChange(status);
     handleClose();
   };
-
   const getStatusColor = (status: BidStatus) => {
     switch (status) {
       case "Identification":
@@ -113,6 +112,7 @@ const BidStatusMenu = ({
 
 
 export default BidStatusMenu;
+
 
 
 
