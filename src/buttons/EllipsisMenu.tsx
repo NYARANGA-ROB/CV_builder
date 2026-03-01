@@ -45,7 +45,6 @@ const EllipsisMenu: React.FC<EllipsisMenuProps> = ({
     onMove(folder);
     handleClose();
   };
-
   // Filter out current folder from available folders and sort alphabetically
   const availableDestinations = availableFolders
     .filter((folder) => folder !== currentFolder)
@@ -143,6 +142,7 @@ const EllipsisMenu: React.FC<EllipsisMenuProps> = ({
 };
 
 export default EllipsisMenu;
+
 
 
 
