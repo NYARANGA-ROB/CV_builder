@@ -9,7 +9,6 @@
     display: flex;
     align-items: center;
 }
-
 .custom-date-input .date-input {
     width: 100%;
     padding-right: 35px;
@@ -44,3 +43,4 @@
     cursor: not-allowed;
 
 }
+
