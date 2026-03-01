@@ -125,7 +125,6 @@ const SelectTenderLibraryFile = ({
               <tbody>{renderDocuments()}</tbody>
             </table>
           )}
-
           <div className="pagination-controls">
             {totalPages > 1 &&
               [...Array(totalPages)].map((_, i) => (
@@ -145,6 +144,7 @@ const SelectTenderLibraryFile = ({
   );
 };
 export default withAuth(SelectTenderLibraryFile);
+
 
 
 
