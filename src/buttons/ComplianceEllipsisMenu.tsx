@@ -13,7 +13,6 @@ const ComplianceEllipsisMenu: React.FC<ComplianceEllipsisMenuProps> = ({
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
   };
-
   const handleClose = () => {
     setAnchorEl(null);
   };
@@ -71,6 +70,7 @@ const ComplianceEllipsisMenu: React.FC<ComplianceEllipsisMenuProps> = ({
 };
 
 export default ComplianceEllipsisMenu;
+
 
 
 
