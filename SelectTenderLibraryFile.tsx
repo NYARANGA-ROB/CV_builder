@@ -68,7 +68,6 @@ const SelectTenderLibraryFile = ({
       return newSelectionArray;
     });
   };
-
   useEffect(() => {
     setSelectedFiles((prev) => {
       const newSelection = new Set([...initialSelectedFiles]);
@@ -147,6 +146,7 @@ const SelectTenderLibraryFile = ({
 };
 
 export default withAuth(SelectTenderLibraryFile);
+
 
 
 
