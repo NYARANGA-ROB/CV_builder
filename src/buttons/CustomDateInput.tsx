@@ -1,6 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
 import "./CustomDateInput.css";
-
 const CustomDateInput = ({ 
   value, 
   onChange, 
@@ -67,5 +66,6 @@ const CustomDateInput = ({
     </div>
   );
 };
+
 
 export default CustomDateInput;
