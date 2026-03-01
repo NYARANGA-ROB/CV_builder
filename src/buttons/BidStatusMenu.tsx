@@ -50,7 +50,6 @@ const BidStatusMenu = ({
         return "status-identification";
     }
   };
-
   return (
     <div>
       <Button
@@ -112,6 +111,7 @@ const BidStatusMenu = ({
 
 
 export default BidStatusMenu;
+
 
 
 
