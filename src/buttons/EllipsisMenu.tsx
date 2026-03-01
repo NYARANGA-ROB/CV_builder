@@ -37,7 +37,6 @@ const EllipsisMenu: React.FC<EllipsisMenuProps> = ({
     onDelete();
     handleClose();
   };
-
   const handleMoveClick = (event: React.MouseEvent<HTMLElement>) => {
     setShowMoveMenu(event.currentTarget);
   };
@@ -144,6 +143,7 @@ const EllipsisMenu: React.FC<EllipsisMenuProps> = ({
 };
 
 export default EllipsisMenu;
+
 
 
 
