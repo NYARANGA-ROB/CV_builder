@@ -40,7 +40,6 @@ const CustomDateInput = ({
       onChange(newValue);
     }
   };
-
   return (
     <div className="custom-date-input">
       <input
@@ -69,3 +68,4 @@ const CustomDateInput = ({
 
 
 export default CustomDateInput;
+
