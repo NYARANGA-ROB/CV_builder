@@ -17,7 +17,6 @@ const ComplianceEllipsisMenu: React.FC<ComplianceEllipsisMenuProps> = ({
   const handleClose = () => {
     setAnchorEl(null);
   };
-
   const handleDeleteClick = () => {
     onDelete();
     handleClose();
@@ -72,5 +71,6 @@ const ComplianceEllipsisMenu: React.FC<ComplianceEllipsisMenuProps> = ({
 };
 
 export default ComplianceEllipsisMenu;
+
 
 
