@@ -24,7 +24,6 @@ const ComplianceEllipsisMenu: React.FC<ComplianceEllipsisMenuProps> = ({
   const handleViewClick = () => {
     handleClose();
   };
-
   return (
     <div>
       <Button
@@ -70,6 +69,7 @@ const ComplianceEllipsisMenu: React.FC<ComplianceEllipsisMenuProps> = ({
 };
 
 export default ComplianceEllipsisMenu;
+
 
 
 
