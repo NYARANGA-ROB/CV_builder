@@ -29,7 +29,6 @@ const EllipsisMenu: React.FC<EllipsisMenuProps> = ({
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
   };
-
   const handleClose = () => {
     setAnchorEl(null);
     setShowMoveMenu(null);
@@ -146,6 +145,7 @@ const EllipsisMenu: React.FC<EllipsisMenuProps> = ({
 };
 
 export default EllipsisMenu;
+
 
 
 
