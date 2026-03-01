@@ -11,7 +11,6 @@ const BidStatusMenu = ({
   onChange: (value: BidStatus) => void;
 }) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-
   // Validate and normalize the status value
   const normalizeStatus = (status: any): BidStatus => {
     const validStatuses: BidStatus[] = [
@@ -117,4 +116,5 @@ const BidStatusMenu = ({
 
 
 export default BidStatusMenu;
+
 
