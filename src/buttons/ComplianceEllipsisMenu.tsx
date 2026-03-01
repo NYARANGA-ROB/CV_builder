@@ -2,7 +2,6 @@ import React from "react";
 import { Button, Menu, MenuItem } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEllipsisVertical } from "@fortawesome/free-solid-svg-icons";
-
 interface ComplianceEllipsisMenuProps {
   onDelete: () => void;
 }
@@ -73,4 +72,5 @@ const ComplianceEllipsisMenu: React.FC<ComplianceEllipsisMenuProps> = ({
 };
 
 export default ComplianceEllipsisMenu;
+
 
