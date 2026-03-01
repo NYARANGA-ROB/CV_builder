@@ -24,7 +24,6 @@
 .custom-date-input .calendar-icon:hover {
     color: #495057;
 }
-
 .custom-date-input .calendar-icon.disabled {
     cursor: not-allowed;
     color: #adb5bd;
@@ -40,6 +39,7 @@
     cursor: not-allowed;
 
 }
+
 
 
 
