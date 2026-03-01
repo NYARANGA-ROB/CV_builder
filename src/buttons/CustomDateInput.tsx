@@ -8,7 +8,6 @@ const CustomDateInput = ({
 }) => {
   const dateInputRef = useRef(null);
   const [displayValue, setDisplayValue] = useState("");
-
   useEffect(() => {
     // Handle both value prop and defaultValue
     const dateToUse = value || defaultValue;
@@ -66,6 +65,7 @@ const CustomDateInput = ({
 
 
 export default CustomDateInput;
+
 
 
 
