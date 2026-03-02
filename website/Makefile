@@ -9,8 +9,8 @@ lint :
 	poetry run pre-commit run --all-files
 update: install install-pre-commit ;
 up-dependencies-only:
-	
 	docker-compose -f docker-compose-dev.yml up -d --force-recreate
+
 
 
 
