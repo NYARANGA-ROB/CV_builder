@@ -4,8 +4,8 @@ def generate_secret_key():
     print(f'SECRET_KEY: {secret_key}')
 if __name__ == '__main__':
     print()
-
     generate_secret_key()
+
 
 
 
