@@ -16,7 +16,6 @@ RUN set -xe \
 # Copy and install Python dependencies
 COPY ["poetry.lock", "pyproject.toml", "./"]
 RUN poetry install --no-root
-
 # Copy project files
 COPY ["README.md", "Makefile", "./"]
 COPY mytenderweb mytenderweb
@@ -30,6 +29,7 @@ COPY scripts/entrypoint.sh /entrypoint.sh
 RUN chmod a+x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
+
 
 
 
