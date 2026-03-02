@@ -20,7 +20,6 @@ RUN poetry install --no-root
 COPY ["README.md", "Makefile", "./"]
 COPY mytenderweb mytenderweb
 COPY local local
-
 # Expose the Django development server port (adjust if needed)
 EXPOSE 8000
 
@@ -29,6 +28,7 @@ COPY scripts/entrypoint.sh /entrypoint.sh
 RUN chmod a+x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
+
 
 
 
