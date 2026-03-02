@@ -13,7 +13,6 @@ RUN set -xe \
     && pip install virtualenvwrapper poetry==1.4.2 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
-
 # Copy and install Python dependencies
 COPY ["poetry.lock", "pyproject.toml", "./"]
 RUN poetry install --no-root
@@ -31,6 +30,7 @@ COPY scripts/entrypoint.sh /entrypoint.sh
 RUN chmod a+x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
+
 
 
 
