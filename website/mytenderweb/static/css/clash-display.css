@@ -23,7 +23,6 @@
 *
 * available axes:
 * 'wght' (range from 200.0 to 700.0)
-
 */
 @font-face {
   font-family: "Manrope";
@@ -32,6 +31,7 @@
   font-display: swap;
   font-style: normal;
 }
+
 
 
 
