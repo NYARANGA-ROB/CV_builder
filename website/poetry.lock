@@ -9,7 +9,6 @@ files = [
     {file = "arabic_reshaper-3.0.0-py3-none-any.whl", hash = "sha256:3f71d5034bb694204a239a6f1ebcf323ac3c5b059de02259235e2016a1a5e2dc"},
     {file = "arabic_reshaper-3.0.0.tar.gz", hash = "sha256:ffcd13ba5ec007db71c072f5b23f420da92ac7f268512065d49e790e62237099"},
 ]
-
 [package.extras]
 with-fonttools = ["fonttools (>=4.0)"]
 
@@ -1789,4 +1788,5 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 lock-version = "2.0"
 python-versions = "^3.10"
 content-hash = "3cce1625a57d520008050710bbc9dfb94964051c522bb997cce32e7f80389f58"
+
 
