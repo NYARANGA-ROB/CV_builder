@@ -5,7 +5,6 @@ import { FluentProvider, webLightTheme } from "@fluentui/react-components";
 /* global document, Office, module, require */
 const title = "Mytender.io Task Pane Add-in";
 const container: HTMLElement | null = document.getElementById("container");
-
 /* Render application after Office initializes */
 Office.onReady(() => {
   if (container) {
@@ -26,5 +25,6 @@ if ((module as any).hot) {
     }
   });
 }
+
 
 
