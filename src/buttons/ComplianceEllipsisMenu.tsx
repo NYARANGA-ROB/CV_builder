@@ -20,7 +20,6 @@ const ComplianceEllipsisMenu: React.FC<ComplianceEllipsisMenuProps> = ({
     onDelete();
     handleClose();
   };
-
   const handleViewClick = () => {
     handleClose();
   };
@@ -68,6 +67,7 @@ const ComplianceEllipsisMenu: React.FC<ComplianceEllipsisMenuProps> = ({
   );
 };
 export default ComplianceEllipsisMenu;
+
 
 
 
