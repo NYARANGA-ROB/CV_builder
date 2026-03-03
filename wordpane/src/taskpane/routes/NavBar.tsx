@@ -14,7 +14,6 @@ const NavBar = () => {
   const tokenRef = useRef(auth?.token || "default");
   const signOut = useSignOut();
   const navigate = useNavigate();
-
   const toggle = () => setIsOpen(!isOpen);
 
   useEffect(() => {
@@ -67,4 +66,5 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
 
