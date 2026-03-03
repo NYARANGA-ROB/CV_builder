@@ -6,7 +6,6 @@ import { useAuthUser, useSignOut } from "react-auth-kit";
 import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import { apiURL } from "../helper/urls";
-
 const NavBar = () => {
   const getAuth = useAuthUser();
   const auth = getAuth();
@@ -68,3 +67,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
