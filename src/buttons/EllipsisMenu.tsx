@@ -54,7 +54,6 @@ const EllipsisMenu: React.FC<EllipsisMenuProps> = ({
       // Otherwise sort alphabetically
       return a.toLowerCase().localeCompare(b.toLowerCase());
     });
-
   return (
     <div>
       {isMoving ? (
@@ -140,6 +139,7 @@ const EllipsisMenu: React.FC<EllipsisMenuProps> = ({
   );
 };
 export default EllipsisMenu;
+
 
 
 
