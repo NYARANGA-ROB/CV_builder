@@ -42,7 +42,6 @@ const NavBar = () => {
     };
     // Fetch email immediately on mount
     fetchEmail();
-
     // Then set up interval to fetch email every 80 seconds
     const interval = setInterval(fetchEmail, 80000);
 
@@ -63,6 +62,7 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
 
 
 
