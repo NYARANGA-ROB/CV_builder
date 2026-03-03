@@ -3,7 +3,6 @@ import * as ReactDOM from "react-dom";
 import App from "./components/App";
 import { FluentProvider, webLightTheme } from "@fluentui/react-components";
 /* global document, Office, module, require */
-
 const title = "Mytender.io Task Pane Add-in";
 const container: HTMLElement | null = document.getElementById("container");
 
@@ -27,4 +26,5 @@ if ((module as any).hot) {
     }
   });
 }
+
 
