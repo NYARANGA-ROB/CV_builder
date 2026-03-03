@@ -26,7 +26,6 @@ const SelectTenderLibraryFile = ({
     return Array.from(initialSelection);
   });
   const [isLoading, setIsLoading] = useState(true);
-
   const paginate = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
@@ -144,6 +143,7 @@ const SelectTenderLibraryFile = ({
   );
 };
 export default withAuth(SelectTenderLibraryFile);
+
 
 
 
