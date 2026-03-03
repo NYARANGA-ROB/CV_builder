@@ -39,7 +39,7 @@ export type IPromptType =
 
 export type IShortcutType = "insert" | "replace" | "refine";
 export type IButtonStatus = "hidden" | "disabled" | "enabled";
-
 export type IChatTypes = "library-chat" | "internet-search";
+
 
 
