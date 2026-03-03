@@ -7,7 +7,6 @@ export interface IMessage {
   id: string;
   request: IMessageRequest;
 }
-
 export type IMessageRequest =
   | {
       type: "text" | "image";
@@ -43,3 +42,4 @@ export type IShortcutType = "insert" | "replace" | "refine";
 export type IButtonStatus = "hidden" | "disabled" | "enabled";
 
 export type IChatTypes = "library-chat" | "internet-search";
+
