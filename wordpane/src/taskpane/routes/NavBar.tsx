@@ -18,7 +18,6 @@ const NavBar = () => {
   useEffect(() => {
     tokenRef.current = auth?.token || "default";
   }, [auth]);
-
   useEffect(() => {
     // Function to fetch email
     const fetchEmail = async () => {
@@ -65,6 +64,7 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
 
 
 
