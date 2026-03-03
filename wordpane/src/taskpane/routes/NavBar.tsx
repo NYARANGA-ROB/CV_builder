@@ -40,7 +40,6 @@ const NavBar = () => {
         signOut();
       }
     };
-
     // Fetch email immediately on mount
     fetchEmail();
 
@@ -64,6 +63,7 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
 
 
 
