@@ -42,7 +42,6 @@ const AddUser = () => {
       );
       return;
     }
-
     if (!data.password) {
       displayAlert(
         "Enter a password name under which to save the configuration",
@@ -105,6 +104,7 @@ const AddUser = () => {
 };
 
 export default withAuthAdmin(AddUser);
+
 
 
 
