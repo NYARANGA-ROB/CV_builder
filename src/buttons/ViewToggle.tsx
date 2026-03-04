@@ -7,7 +7,6 @@ interface ViewToggleProps {
   value: string;
   onChange: (view: "table" | "kanban") => void;
 }
-
 const ViewToggle: React.FC<ViewToggleProps> = ({ value, onChange }) => {
   return (
     <ButtonGroup className="viewtoggle">
@@ -32,3 +31,4 @@ const ViewToggle: React.FC<ViewToggleProps> = ({ value, onChange }) => {
 };
 
 export default ViewToggle;
+
