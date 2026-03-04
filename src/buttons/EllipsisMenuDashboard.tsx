@@ -21,7 +21,6 @@ const EllipsisMenuDashboard: React.FC<EllipsisMenuDashboardProps> = ({
     handleClose();
     onClick();
   };
-
   return (
     <div>
       <Button
@@ -63,6 +62,7 @@ const EllipsisMenuDashboard: React.FC<EllipsisMenuDashboardProps> = ({
 };
 
 export default EllipsisMenuDashboard;
+
 
 
 
