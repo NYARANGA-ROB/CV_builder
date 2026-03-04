@@ -21,7 +21,6 @@ const StatusMenu = ({
     return validStatuses.includes(status) ? status : "Not Started";
   };
   const currentStatus = normalizeStatus(value);
-
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
   };
@@ -94,6 +93,7 @@ const StatusMenu = ({
 };
 
 export default StatusMenu;
+
 
 
 
