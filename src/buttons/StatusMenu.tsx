@@ -4,7 +4,6 @@ import { Button } from "react-bootstrap";
 import { Section } from "../views/BidWritingStateManagerView";
 
 type ValidStatus = "Not Started" | "In Progress" | "Completed";
-
 const StatusMenu = ({
   value,
   onChange
@@ -100,3 +99,4 @@ const StatusMenu = ({
 };
 
 export default StatusMenu;
+
