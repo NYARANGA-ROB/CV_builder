@@ -23,7 +23,6 @@ const BidStatusMenu = ({
     return validStatuses.includes(status) ? status : "Identification";
   };
   const currentStatus = normalizeStatus(value);
-
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
   };
@@ -109,6 +108,7 @@ const BidStatusMenu = ({
   );
 };
 export default BidStatusMenu;
+
 
 
 
