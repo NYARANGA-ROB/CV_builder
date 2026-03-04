@@ -92,7 +92,6 @@ const AddUser = () => {
           onChange={(e) => handleChange("password", e.target.value)}
         />
       </div>
-
       {/* Submit button */}
       <div className="submit-btn">
         <button onClick={saveUser}>Add new user</button>{" "}
@@ -103,6 +102,7 @@ const AddUser = () => {
 };
 
 export default withAuthAdmin(AddUser);
+
 
 
 
