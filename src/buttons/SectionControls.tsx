@@ -14,7 +14,6 @@ interface SectionControlsProps {
   isFirst: boolean;
   isLast: boolean;
 }
-
 const SectionControls: React.FC<SectionControlsProps> = ({
   onDelete,
   onMoveUp,
@@ -98,4 +97,5 @@ const SectionControls: React.FC<SectionControlsProps> = ({
 };
 
 export default SectionControls;
+
 
