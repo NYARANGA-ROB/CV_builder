@@ -2,7 +2,6 @@ import { Menu, MenuItem } from "@mui/material";
 import { useState } from "react";
 import { Button } from "react-bootstrap";
 import { Section } from "../views/BidWritingStateManagerView";
-
 type ValidStatus = "Not Started" | "In Progress" | "Completed";
 const StatusMenu = ({
   value,
@@ -99,4 +98,5 @@ const StatusMenu = ({
 };
 
 export default StatusMenu;
+
 
