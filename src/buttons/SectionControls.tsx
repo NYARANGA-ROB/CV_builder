@@ -91,8 +91,8 @@ const SectionControls: React.FC<SectionControlsProps> = ({
     </div>
   );
 };
-
 export default SectionControls;
+
 
 
 
