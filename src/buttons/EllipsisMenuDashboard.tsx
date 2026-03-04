@@ -6,7 +6,6 @@ import { faEllipsisVertical } from "@fortawesome/free-solid-svg-icons";
 interface EllipsisMenuDashboardProps {
   onClick: () => void;
 }
-
 const EllipsisMenuDashboard: React.FC<EllipsisMenuDashboardProps> = ({
   onClick
 }) => {
@@ -66,3 +65,4 @@ const EllipsisMenuDashboard: React.FC<EllipsisMenuDashboardProps> = ({
 };
 
 export default EllipsisMenuDashboard;
+
