@@ -18,7 +18,6 @@ const AddUser = () => {
   const auth = getAuth();
   const tokenRef = useRef(auth?.token || "default");
   const email = auth?.email || "default";
-
   const getAuthHeader = useAuthHeader();
   const authHeader = getAuthHeader();
   // console.log(authHeader);  // Outputs: 'Bearer your_token_here'
@@ -108,6 +107,7 @@ const AddUser = () => {
 };
 
 export default withAuthAdmin(AddUser);
+
 
 
 
