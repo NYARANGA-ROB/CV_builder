@@ -100,8 +100,8 @@ const AddUser = () => {
     </div>
   );
 };
-
 export default withAuthAdmin(AddUser);
+
 
 
 
