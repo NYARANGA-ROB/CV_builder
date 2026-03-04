@@ -27,7 +27,6 @@ const SectionControls: React.FC<SectionControlsProps> = ({
     event.stopPropagation(); // Prevent row click event
     setAnchorEl(event.currentTarget);
   };
-
   const handleClose = () => {
     setAnchorEl(null);
   };
@@ -97,5 +96,6 @@ const SectionControls: React.FC<SectionControlsProps> = ({
 };
 
 export default SectionControls;
+
 
 
