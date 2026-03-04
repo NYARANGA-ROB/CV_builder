@@ -48,7 +48,6 @@
   width: auto;
   margin-right: 5px;
 }
-
 .strategy-form button {
   background-color: #007bff;
   color: white;
@@ -120,6 +119,7 @@
   height: 10em;
   /* This will give the textarea enough space for about 5 lines of text */
 }
+
 
 
 
