@@ -31,7 +31,6 @@ const StatusMenu = ({
     onChange(status);
     handleClose();
   };
-
   const getStatusColor = (status: ValidStatus) => {
     switch (status) {
       case "Completed":
@@ -93,6 +92,7 @@ const StatusMenu = ({
 };
 
 export default StatusMenu;
+
 
 
 
