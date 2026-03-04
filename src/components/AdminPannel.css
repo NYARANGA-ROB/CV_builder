@@ -21,7 +21,6 @@
   margin-bottom: 20px;
   color: #333;
 }
-
 .strategy-form div {
   margin: 10px 0;
 }
@@ -123,5 +122,6 @@
   height: 10em;
   /* This will give the textarea enough space for about 5 lines of text */
 }
+
 
 
