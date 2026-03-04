@@ -11,7 +11,6 @@ const StatusMenu = ({
   onChange: (value: Section["status"]) => void;
 }) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-
   // Validate and normalize the status value
   const normalizeStatus = (status: any): ValidStatus => {
     const validStatuses: ValidStatus[] = [
@@ -96,6 +95,7 @@ const StatusMenu = ({
 };
 
 export default StatusMenu;
+
 
 
 
