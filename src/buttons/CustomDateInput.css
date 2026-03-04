@@ -33,10 +33,12 @@
     position: fixed;
     z-index: 50;
 }
+
 .custom-date-input .form-control:disabled {
     background-color: #e9ecef;
     cursor: not-allowed;
 }
+
 
 
 
