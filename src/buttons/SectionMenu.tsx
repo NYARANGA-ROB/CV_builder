@@ -30,7 +30,7 @@ const SectionMenu = ({ x, y, onClose, onAddSection, onDeleteSection }) => {
       </div>
     );
   };
-
   export default SectionMenu;
+
 
 
