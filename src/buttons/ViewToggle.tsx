@@ -29,6 +29,6 @@ const ViewToggle: React.FC<ViewToggleProps> = ({ value, onChange }) => {
     </ButtonGroup>
   );
 };
-
 export default ViewToggle;
+
 
