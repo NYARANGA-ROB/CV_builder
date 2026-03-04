@@ -34,7 +34,6 @@ const SectionControls: React.FC<SectionControlsProps> = ({
     action();
     handleClose();
   };
-
   return (
     <div className="d-flex justify-content-center">
       <Button
@@ -94,6 +93,7 @@ const SectionControls: React.FC<SectionControlsProps> = ({
 };
 
 export default SectionControls;
+
 
 
 
