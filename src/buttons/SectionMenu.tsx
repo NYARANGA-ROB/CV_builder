@@ -31,6 +31,6 @@ const SectionMenu = ({ x, y, onClose, onAddSection, onDeleteSection }) => {
     );
   };
 
-
   export default SectionMenu;
+
 
