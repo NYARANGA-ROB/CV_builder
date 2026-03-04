@@ -65,7 +65,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
 .load-strategy select,
 .load-strategy button {
   width: 48%;
@@ -117,6 +116,7 @@
   height: 10em;
   /* This will give the textarea enough space for about 5 lines of text */
 }
+
 
 
 
