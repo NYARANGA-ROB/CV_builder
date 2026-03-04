@@ -24,7 +24,6 @@
 .strategy-form div {
   margin: 10px 0;
 }
-
 .strategy-form label {
   display: block;
   margin-bottom: 5px;
@@ -119,6 +118,7 @@
   height: 10em;
   /* This will give the textarea enough space for about 5 lines of text */
 }
+
 
 
 
