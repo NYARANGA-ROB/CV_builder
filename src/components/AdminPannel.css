@@ -16,7 +16,6 @@
   padding-bottom: 40px;
   /* Use auto instead of scroll to handle both overflow cases */
 }
-
 .strategy-form h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -124,4 +123,5 @@
   height: 10em;
   /* This will give the textarea enough space for about 5 lines of text */
 }
+
 
