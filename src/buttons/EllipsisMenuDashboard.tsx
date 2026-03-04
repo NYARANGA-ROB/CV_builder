@@ -17,7 +17,6 @@ const EllipsisMenuDashboard: React.FC<EllipsisMenuDashboardProps> = ({
   const handleClose = () => {
     setAnchorEl(null);
   };
-
   const handleDeleteClick = () => {
     handleClose();
     onClick();
@@ -64,5 +63,6 @@ const EllipsisMenuDashboard: React.FC<EllipsisMenuDashboardProps> = ({
 };
 
 export default EllipsisMenuDashboard;
+
 
 
