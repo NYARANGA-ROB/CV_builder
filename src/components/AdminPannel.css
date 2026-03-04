@@ -110,12 +110,12 @@
   align-items: center;
   gap: 20px;
 }
-
 .prompt textarea {
   width: 30vw;
   height: 10em;
   /* This will give the textarea enough space for about 5 lines of text */
 }
+
 
 
 
