@@ -9,7 +9,6 @@ interface IAttributesConfig {
   login: string;
   password: string;
 }
-
 const defaultAttributesConfig: IAttributesConfig = {
   login: "",
   password: ""
@@ -111,4 +110,5 @@ const AddUser = () => {
 };
 
 export default withAuthAdmin(AddUser);
+
 
