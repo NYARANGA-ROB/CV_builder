@@ -31,7 +31,6 @@
   font-weight: bold;
   color: #555;
 }
-
 .strategy-form select,
 .strategy-form input[type="text"],
 .strategy-form input[type="radio"] {
@@ -122,6 +121,7 @@
   height: 10em;
   /* This will give the textarea enough space for about 5 lines of text */
 }
+
 
 
 
