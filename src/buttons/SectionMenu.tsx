@@ -14,7 +14,6 @@ const SectionMenu = ({ x, y, onClose, onAddSection, onDeleteSection }) => {
           backgroundColor: 'white',
           boxShadow: '0 2px 5px rgba(0,0,0,0.2)',
           borderRadius: '4px',
-         
         }}
       >
         <button 
@@ -32,5 +31,6 @@ const SectionMenu = ({ x, y, onClose, onAddSection, onDeleteSection }) => {
       </div>
     );
   };
+
 
   export default SectionMenu;
