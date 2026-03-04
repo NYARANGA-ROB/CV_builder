@@ -7,7 +7,6 @@ import {
   faArrowDown,
   faTrash
 } from "@fortawesome/free-solid-svg-icons";
-
 interface SectionControlsProps {
   onDelete: () => void;
   onMoveUp: () => void;
@@ -99,3 +98,4 @@ const SectionControls: React.FC<SectionControlsProps> = ({
 };
 
 export default SectionControls;
+
