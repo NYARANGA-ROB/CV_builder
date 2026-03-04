@@ -22,7 +22,6 @@ const SectionControls: React.FC<SectionControlsProps> = ({
   isLast
 }) => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
-
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.stopPropagation(); // Prevent row click event
     setAnchorEl(event.currentTarget);
@@ -95,6 +94,7 @@ const SectionControls: React.FC<SectionControlsProps> = ({
 };
 
 export default SectionControls;
+
 
 
 
