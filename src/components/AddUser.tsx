@@ -34,7 +34,6 @@ const AddUser = () => {
   const handleChange = (attr: keyof IAttributesConfig, value: any) => {
     setData((prevConfig) => ({ ...prevConfig, [attr]: value }));
   };
-
   const saveUser = () => {
     if (!/^[a-zA-Z0-9@]{3,}$/.test(data.login)) {
       displayAlert(
@@ -106,6 +105,7 @@ const AddUser = () => {
 };
 
 export default withAuthAdmin(AddUser);
+
 
 
 
