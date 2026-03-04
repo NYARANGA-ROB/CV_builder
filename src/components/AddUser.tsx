@@ -5,7 +5,6 @@ import { useAuthHeader, useAuthUser } from "react-auth-kit";
 import { API_URL, HTTP_PREFIX } from "../helper/Constants";
 import withAuthAdmin from "../routes/withAuthAdmin";
 import "./AdminPannel.css";
-
 interface IAttributesConfig {
   login: string;
   password: string;
@@ -112,3 +111,4 @@ const AddUser = () => {
 };
 
 export default withAuthAdmin(AddUser);
+
