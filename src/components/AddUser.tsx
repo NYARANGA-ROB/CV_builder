@@ -13,7 +13,6 @@ const defaultAttributesConfig: IAttributesConfig = {
   login: "",
   password: ""
 };
-
 const AddUser = () => {
   const getAuth = useAuthUser();
   const auth = getAuth();
@@ -110,5 +109,6 @@ const AddUser = () => {
 };
 
 export default withAuthAdmin(AddUser);
+
 
 
