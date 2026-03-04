@@ -39,7 +39,6 @@
   border-radius: 4px;
   margin-top: 5px;
 }
-
 .strategy-form select[multiple] {
   height: 120px;
 }
@@ -115,6 +114,7 @@
   height: 10em;
   /* This will give the textarea enough space for about 5 lines of text */
 }
+
 
 
 
