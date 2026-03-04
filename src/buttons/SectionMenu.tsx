@@ -1,7 +1,6 @@
 import { faPlus, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './SectionMenu.css';
-
 const SectionMenu = ({ x, y, onClose, onAddSection, onDeleteSection }) => {
     return (
       <div 
@@ -34,3 +33,4 @@ const SectionMenu = ({ x, y, onClose, onAddSection, onDeleteSection }) => {
 
 
   export default SectionMenu;
+
