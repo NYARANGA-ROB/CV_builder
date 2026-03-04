@@ -31,7 +31,6 @@ const AddUser = () => {
     document.body.appendChild(alertDiv);
     setTimeout(() => alertDiv.remove(), 3000);
   };
-
   const handleChange = (attr: keyof IAttributesConfig, value: any) => {
     setData((prevConfig) => ({ ...prevConfig, [attr]: value }));
   };
@@ -107,6 +106,7 @@ const AddUser = () => {
 };
 
 export default withAuthAdmin(AddUser);
+
 
 
 
