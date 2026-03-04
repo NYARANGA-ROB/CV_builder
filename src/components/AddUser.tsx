@@ -22,7 +22,6 @@ const AddUser = () => {
   const authHeader = getAuthHeader();
   // console.log(authHeader);  // Outputs: 'Bearer your_token_here'
   const [data, setData] = useState<IAttributesConfig>(defaultAttributesConfig);
-
   // Function to display Bootstrap alerts
   const displayAlert = (message, type) => {
     const alertDiv = document.createElement("div");
@@ -104,6 +103,7 @@ const AddUser = () => {
 };
 
 export default withAuthAdmin(AddUser);
+
 
 
 
