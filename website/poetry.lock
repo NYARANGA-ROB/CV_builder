@@ -52,7 +52,6 @@ docs = ["furo", "myst-parser", "sphinx", "sphinx-notfound-page", "sphinxcontrib-
 tests = ["attrs[tests-no-zope]", "zope-interface"]
 tests-mypy = ["mypy (>=1.6)", "pytest-mypy-plugins"]
 tests-no-zope = ["attrs[tests-mypy]", "cloudpickle", "hypothesis", "pympler", "pytest (>=4.3.0)", "pytest-xdist[psutil]"]
-
 [[package]]
 name = "autobahn"
 version = "23.6.2"
@@ -1782,6 +1781,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 lock-version = "2.0"
 python-versions = "^3.10"
 content-hash = "3cce1625a57d520008050710bbc9dfb94964051c522bb997cce32e7f80389f58"
+
 
 
 
