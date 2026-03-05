@@ -3,7 +3,6 @@ import { MutableRefObject, useRef } from "react";
 import { useAuthUser } from "react-auth-kit";
 import { API_URL, HTTP_PREFIX } from "../helper/Constants";
 import { Section } from "../views/BidWritingStateManagerView";
-
 export const updateSection = (
   section: Section,
   sectionIndex: number,
@@ -56,3 +55,4 @@ export const fetchOutline = async (
     console.error("Error fetching outline:", err);
   }
 };
+
