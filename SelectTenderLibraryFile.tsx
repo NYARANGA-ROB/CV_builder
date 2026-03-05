@@ -82,7 +82,6 @@ const SelectTenderLibraryFile = ({
     const startIdx = (currentPage - 1) * rowsPerPage;
     const endIdx = startIdx + rowsPerPage;
     const documentsToDisplay = documents.slice(startIdx, endIdx);
-
     return documentsToDisplay.map((filename, index) => (
       <tr key={index} style={{ cursor: "pointer" }}>
         <td>
@@ -143,6 +142,7 @@ const SelectTenderLibraryFile = ({
   );
 };
 export default withAuth(SelectTenderLibraryFile);
+
 
 
 
