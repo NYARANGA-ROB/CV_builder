@@ -73,7 +73,6 @@ const SelectTenderLibraryFile = ({
       return Array.from(newSelection);
     });
   }, [initialSelectedFiles]);
-
   useEffect(() => {
     fetchDocuments();
   }, [bid_id, documentListVersion]);
@@ -142,6 +141,7 @@ const SelectTenderLibraryFile = ({
   );
 };
 export default withAuth(SelectTenderLibraryFile);
+
 
 
 
