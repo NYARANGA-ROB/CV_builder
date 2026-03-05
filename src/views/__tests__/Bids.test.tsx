@@ -6,7 +6,6 @@ describe("Bids Component", () => {
     "fetches bids from API",
     async () => {
       const axiosInstance = await getAuthenticatedAxios();
-
       const bidsResponse = await axiosInstance.post(
         `https://dev.mytender.io:7861/get_bids_list/`,
         {}
@@ -18,4 +17,5 @@ describe("Bids Component", () => {
     { timeout: 15000 }
   );
 });
+
 
