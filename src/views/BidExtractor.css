@@ -33,7 +33,6 @@
   direction: ltr;
   color: #000;
 }
-
 .bidname-header .editable {
   outline: none;
   border: 2px solid #86b7fe;
@@ -525,6 +524,7 @@
   max-width: 800px;
   width: 100%;
 }
+
 
 
 
