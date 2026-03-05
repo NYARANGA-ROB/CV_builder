@@ -66,8 +66,8 @@ const ComplianceEllipsisMenu: React.FC<ComplianceEllipsisMenuProps> = ({
     </div>
   );
 };
-
 export default ComplianceEllipsisMenu;
+
 
 
 
