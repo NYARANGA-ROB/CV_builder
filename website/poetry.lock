@@ -353,7 +353,6 @@ files = [
     {file = "colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"},
     {file = "colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"},
 ]
-
 [[package]]
 name = "colorlog"
 version = "6.8.2"
@@ -1759,6 +1758,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 lock-version = "2.0"
 python-versions = "^3.10"
 content-hash = "3cce1625a57d520008050710bbc9dfb94964051c522bb997cce32e7f80389f58"
+
 
 
 
