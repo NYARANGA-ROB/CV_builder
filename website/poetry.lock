@@ -61,7 +61,6 @@ python-versions = ">=3.9"
 files = [
     {file = "autobahn-23.6.2.tar.gz", hash = "sha256:ec9421c52a2103364d1ef0468036e6019ee84f71721e86b36fe19ad6966c1181"},
 ]
-
 [package.dependencies]
 cryptography = ">=3.4.6"
 hyperlink = ">=21.0.0"
@@ -1781,6 +1780,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 lock-version = "2.0"
 python-versions = "^3.10"
 content-hash = "3cce1625a57d520008050710bbc9dfb94964051c522bb997cce32e7f80389f58"
+
 
 
 
