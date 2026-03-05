@@ -5,6 +5,7 @@ import './BidStatusMenu.css';
 type BidStatus = "Identification" | "Capture Planning" | "First Review" | "Final Review" | "Submitted";
 const BidStatusMenu = ({
   value,
+  
   onChange
 }: {
   value: string;
@@ -108,6 +109,7 @@ const BidStatusMenu = ({
   );
 };
 export default BidStatusMenu;
+
 
 
 
