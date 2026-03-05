@@ -4,7 +4,6 @@ const CustomDateInput = ({
   value, 
   onChange, 
   disabled = false, 
-  
   defaultValue = new Date().toISOString().split('T')[0] // Default to current date
 }) => {
   const dateInputRef = useRef(null);
@@ -64,6 +63,7 @@ const CustomDateInput = ({
   );
 };
 export default CustomDateInput;
+
 
 
 
