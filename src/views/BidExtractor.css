@@ -38,7 +38,6 @@
   border: 2px solid #86b7fe;
   border-radius: 4px;
 }
-
 .edit-tag {
   position: relative;
   font-size: 14px;
@@ -524,6 +523,7 @@
   max-width: 800px;
   width: 100%;
 }
+
 
 
 
