@@ -12,7 +12,6 @@
   display: flex;
   align-items: center;
 }
-
 .bidname-wrapper {
   display: flex;
   align-items: center;
@@ -527,4 +526,5 @@
   max-width: 800px;
   width: 100%;
 }
+
 
