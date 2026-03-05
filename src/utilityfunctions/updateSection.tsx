@@ -44,7 +44,6 @@ export const fetchOutline = async (
             ? "In Progress"
             : "Not Started")
     }));
-
     setSharedState((prevState) => ({
       ...prevState,
       outline: outlineWithStatus
@@ -53,6 +52,7 @@ export const fetchOutline = async (
     console.error("Error fetching outline:", err);
   }
 };
+
 
 
 
