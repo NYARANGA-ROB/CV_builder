@@ -55,7 +55,6 @@
 .edit-tag:hover {
   text-decoration: underline;
 }
-
 .title-container {
   display: flex;
   align-items: center;
@@ -522,6 +521,7 @@
   max-width: 800px;
   width: 100%;
 }
+
 
 
 
