@@ -6,5 +6,7 @@ services:
     ports:
       - '8000:8000'
     environment:
+    
       CORESETTINGS_LOCAL_SETTINGS_PATH: 'local/settings.dev.py'
+
 
