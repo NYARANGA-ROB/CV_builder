@@ -52,7 +52,6 @@
   /* Prevents button from shrinking */
   margin-left: 8px;
 }
-
 .edit-tag:hover {
   text-decoration: underline;
 }
@@ -523,6 +522,7 @@
   max-width: 800px;
   width: 100%;
 }
+
 
 
 
