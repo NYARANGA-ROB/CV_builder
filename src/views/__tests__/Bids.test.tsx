@@ -11,7 +11,6 @@ describe("Bids Component", () => {
         `https://dev.mytender.io:7861/get_bids_list/`,
         {}
       );
-
       expect(bidsResponse.status).toBe(200);
       expect(bidsResponse.data).toHaveProperty("bids");
       expect(Array.isArray(bidsResponse.data.bids)).toBe(true);
@@ -19,3 +18,4 @@ describe("Bids Component", () => {
     { timeout: 15000 }
   );
 });
+
