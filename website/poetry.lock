@@ -134,7 +134,6 @@ files = [
     {file = "certifi-2024.7.4-py3-none-any.whl", hash = "sha256:c198e21b1289c2ab85ee4e67bb4b4ef3ead0892059901a8d5b622f24a1101e90"},
     {file = "certifi-2024.7.4.tar.gz", hash = "sha256:5a1e7645bc0ec61a09e26c36f6106dd4cf40c6db3a1fb6352b0244e7fb057c7b"},
 ]
-
 [[package]]
 name = "cffi"
 version = "1.16.0"
@@ -1766,6 +1765,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 lock-version = "2.0"
 python-versions = "^3.10"
 content-hash = "3cce1625a57d520008050710bbc9dfb94964051c522bb997cce32e7f80389f58"
+
 
 
 
