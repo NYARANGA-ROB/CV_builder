@@ -22,10 +22,12 @@ COPY mytenderweb mytenderweb
 COPY local local
 # Expose the Django development server port (adjust if needed)
 EXPOSE 8000
+
 # Set up the entrypoint
 COPY scripts/entrypoint.sh /entrypoint.sh
 RUN chmod a+x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
+
 
 
 
