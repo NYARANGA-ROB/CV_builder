@@ -34,7 +34,6 @@ export const fetchOutline = async (
         }
       }
     );
-
     const outlineWithStatus = response.data.map((section: any) => ({
       ...section,
       status:
@@ -54,5 +53,6 @@ export const fetchOutline = async (
     console.error("Error fetching outline:", err);
   }
 };
+
 
 
