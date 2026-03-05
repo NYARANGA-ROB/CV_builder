@@ -15,7 +15,6 @@ export const updateSection = (
     )
   }));
 };
-
 export const fetchOutline = async (
   bid_id: string,
   tokenRef: MutableRefObject<string>,
@@ -55,4 +54,5 @@ export const fetchOutline = async (
     console.error("Error fetching outline:", err);
   }
 };
+
 
