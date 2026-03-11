@@ -155,7 +155,6 @@ body {
     font-size: var(--font-size-desktop--text-size-regular);
     line-height: 1.5;
 }
-
 h1 {
     font-family: var(--font--headings);
     font-size: var(--font-size-desktop--heading-1);
@@ -2534,6 +2533,7 @@ figcaption {
 
 
 /* Add JavaScript to handle button clicks and slide changes */
+
 
 
 
