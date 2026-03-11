@@ -60,7 +60,6 @@
     --radius--radius-xxs: 2px;
     --radius--radius-4xl: 24px;
 }
-
 .w-layout-blockcontainer {
     max-width: 940px;
     margin-left: auto;
@@ -2538,6 +2537,7 @@ figcaption {
     background-color: var(--brand-color);
     color: white;
 }
+
 
 
 /* Add JavaScript to handle button clicks and slide changes */
