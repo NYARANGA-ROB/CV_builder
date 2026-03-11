@@ -3,6 +3,7 @@
   <Id>883d0ae8-d576-4c8c-8232-983651cdda8e</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>mytender.io</ProviderName>
+  
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="mytender.io"/>
   <Description DefaultValue="Win tenders by using artificial intelligence"/>
@@ -83,5 +84,6 @@
     </Resources>
   </VersionOverrides>
 </OfficeApp>
+
 
 
