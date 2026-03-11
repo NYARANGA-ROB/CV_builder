@@ -84,7 +84,6 @@
     padding-left: 20px;
     display: block;
 }
-
 .w-checkbox:before {
     content: " ";
     grid-area: 1 / 1 / 2 / 2;
@@ -2538,6 +2537,7 @@ figcaption {
 
 
 /* Add JavaScript to handle button clicks and slide changes */
+
 
 
 
