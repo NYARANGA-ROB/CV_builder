@@ -89,7 +89,6 @@
     grid-area: 1 / 1 / 2 / 2;
     display: table;
 }
-
 .w-checkbox:after {
     content: " ";
     clear: both;
@@ -2537,6 +2536,7 @@ figcaption {
 
 
 /* Add JavaScript to handle button clicks and slide changes */
+
 
 
 
