@@ -74,7 +74,6 @@
     grid-auto-columns: 1fr;
     display: grid;
 }
-
 .w-layout-vflex {
     flex-direction: column;
     align-items: flex-start;
@@ -2540,4 +2539,5 @@ figcaption {
 
 
 /* Add JavaScript to handle button clicks and slide changes */
+
 
