@@ -880,16 +880,13 @@ figcaption {
     width: 100%;
     display: flex;
 }
-
 .margin-bottom-large {
     margin-bottom: 48px;
 }
-
 .background-color-dark {
     background-color: var(--color--background-dark);
     color: var(--color--white);
 }
-
 .footer {
     padding-top: var(--width--section-padding-desktop);
     padding-bottom: var(--width--section-padding-desktop);
@@ -897,7 +894,6 @@ figcaption {
     color: var(--color--white);
     position: relative;
 }
-
 .navbar-menu {
     grid-column-gap: 40px;
     grid-row-gap: 40px;
@@ -2533,6 +2529,7 @@ figcaption {
 
 
 /* Add JavaScript to handle button clicks and slide changes */
+
 
 
 
