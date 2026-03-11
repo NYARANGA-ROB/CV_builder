@@ -95,7 +95,6 @@
     grid-area: 1 / 1 / 2 / 2;
     display: table;
 }
-
 .w-checkbox-input {
     float: left;
     margin: 4px 0 0 -20px;
@@ -2535,6 +2534,7 @@ figcaption {
 
 
 /* Add JavaScript to handle button clicks and slide changes */
+
 
 
 
