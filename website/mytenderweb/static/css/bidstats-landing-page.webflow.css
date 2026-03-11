@@ -79,7 +79,6 @@
     align-items: flex-start;
     display: flex;
 }
-
 .w-checkbox {
     margin-bottom: 5px;
     padding-left: 20px;
@@ -2539,5 +2538,6 @@ figcaption {
 
 
 /* Add JavaScript to handle button clicks and slide changes */
+
 
 
