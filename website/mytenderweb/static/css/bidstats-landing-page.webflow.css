@@ -66,7 +66,6 @@
     margin-right: auto;
     display: block;
 }
-
 .w-layout-grid {
     grid-row-gap: 16px;
     grid-column-gap: 16px;
@@ -2541,3 +2540,4 @@ figcaption {
 
 
 /* Add JavaScript to handle button clicks and slide changes */
+
