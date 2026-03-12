@@ -1,5 +1,6 @@
 # Use an official Python runtime as the base image
 FROM python:3.10.4-buster
+
 # Set the working directory in the container
 WORKDIR /opt/project
 ENV PYTHONDONTWRITEBYTECODE 1
@@ -27,6 +28,7 @@ EXPOSE 8000
 COPY scripts/entrypoint.sh /entrypoint.sh
 RUN chmod a+x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
+
 
 
 
