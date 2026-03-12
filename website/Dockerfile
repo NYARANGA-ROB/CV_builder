@@ -7,7 +7,6 @@ ENV PYTHONUNBUFFERED 1
 ENV PYTHONPATH .
 ENV CORESETTINGS_IN_DOCKER true
 # Install dependencies
-
 RUN set -xe \
     && apt-get update \
     && apt-get install -y --no-install-recommends build-essential \
@@ -27,6 +26,7 @@ EXPOSE 8000
 COPY scripts/entrypoint.sh /entrypoint.sh
 RUN chmod a+x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
+
 
 
 
