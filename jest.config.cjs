@@ -18,6 +18,8 @@ module.exports = {
     moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
     extensionsToTreatAsEsm: [".ts", ".tsx"],
     setupFiles: ["<rootDir>/.env.test"]
+    
 };
+
 
 
