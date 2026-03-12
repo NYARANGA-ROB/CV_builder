@@ -19,7 +19,9 @@ module.exports = {
     extensionsToTreatAsEsm: [".ts", ".tsx"],
     setupFiles: ["<rootDir>/.env.test"]
     
+    
 };
+
 
 
 
