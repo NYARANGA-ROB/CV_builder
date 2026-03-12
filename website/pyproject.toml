@@ -25,7 +25,6 @@ stripe = "^10.4.0"
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.6.2"
 colorlog = "^6.8.2"
-
 [tool.yapf]
 based_on_style = "google"
 align_closing_bracket_with_visual_indent = true
@@ -36,5 +35,6 @@ dedent_closing_brackets = true
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
 
 
