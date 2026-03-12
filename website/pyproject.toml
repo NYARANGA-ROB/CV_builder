@@ -31,10 +31,10 @@ align_closing_bracket_with_visual_indent = true
 coalesce_brackets = true
 column_limit = 119
 dedent_closing_brackets = true
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
 
 
 
