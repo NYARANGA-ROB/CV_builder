@@ -96,7 +96,6 @@ const SelectTenderLibraryFile = ({
       </tr>
     ));
   };
-
   return (
     <Card className="select-tenderlibrary-card-custom mt-0 mb-0 p-0">
       <Card.Body className="select-library-card-body-content">
@@ -141,6 +140,7 @@ const SelectTenderLibraryFile = ({
   );
 };
 export default withAuth(SelectTenderLibraryFile);
+
 
 
 
