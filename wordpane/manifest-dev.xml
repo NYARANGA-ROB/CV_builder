@@ -23,7 +23,6 @@
     <Hosts>
       <Host xsi:type="Document">
         <DesktopFormFactor>
-          
           <GetStarted>
             <Title resid="GetStarted.Title"/>
             <Description resid="GetStarted.Description"/>
