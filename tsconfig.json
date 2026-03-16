@@ -8,6 +8,7 @@
     // Update types to include Jest
     "types": ["vitest/globals", "jest", "@testing-library/jest-dom"],
     /* Bundler mode */
+    
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
