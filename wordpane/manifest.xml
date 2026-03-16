@@ -18,6 +18,7 @@
   <DefaultSettings>
     
     <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
+    
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   
