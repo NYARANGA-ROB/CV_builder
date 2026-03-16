@@ -13,6 +13,7 @@ Object.defineProperty(window, "matchMedia", {
     removeEventListener: jest.fn(),
     dispatchEvent: jest.fn()
   }))
+  
 });
 // Existing IntersectionObserver mock
 window.IntersectionObserver = jest.fn().mockImplementation(() => ({
