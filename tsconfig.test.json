@@ -4,7 +4,6 @@
     "moduleResolution": "node", // Override bundler for Jest
     "module": "CommonJS", // Jest requires CommonJS
     "allowImportingTsExtensions": false
-    
   },
   "include": ["src", "**/*.ts", "**/*.tsx", "jest.setup.js"]
 }
