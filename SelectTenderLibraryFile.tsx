@@ -76,7 +76,6 @@ const SelectTenderLibraryFile = ({
   useEffect(() => {
     fetchDocuments();
   }, [bid_id, documentListVersion]);
-
   const renderDocuments = () => {
     const startIdx = (currentPage - 1) * rowsPerPage;
     const endIdx = startIdx + rowsPerPage;
