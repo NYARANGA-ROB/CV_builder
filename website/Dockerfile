@@ -2,6 +2,7 @@
 FROM python:3.10.4-buster
 # Set the working directory in the container
 WORKDIR /opt/project
+
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 ENV PYTHONPATH .
