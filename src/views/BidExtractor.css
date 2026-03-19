@@ -112,7 +112,6 @@
   /* Center the component */
   box-sizing: border-box;
 }
-
 .upload-rfp {
   display: flex;
   align-items: center;
