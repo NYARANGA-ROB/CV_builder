@@ -3,7 +3,6 @@ import Wizard from "react-onboarding";
 import CustomWizard from "./CustomWizard";
 const BidCompilerWizard = () => {
   const [isShow, setIsShow] = useState(false);
-
   const steps = [
     {
       elementId: "proposal-editor",
