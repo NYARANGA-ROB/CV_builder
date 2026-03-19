@@ -16,7 +16,6 @@ posthog.init("phc_bdUxtNoJmZWNnu1Ar29zUtusFQ4bvU91fZpLw5v4Y3e", {
   api_host: "https://eu.i.posthog.com",
   person_profiles: "identified_only"
 });
-
 const REFRESH_INTERVAL = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
 
 const Layout = () => {
