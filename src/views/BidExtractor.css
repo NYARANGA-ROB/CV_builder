@@ -134,7 +134,6 @@
   flex: 0 0 72%;
   max-width: 72%;
 }
-
 @media (min-width: 1600px) {
   .col-3-5 {
     flex: 0 0 22%;
