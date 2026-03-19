@@ -36,7 +36,6 @@ const BidCompilerWizard = () => {
       checkTourStatus();
     };
     window.addEventListener("showTips", handleShowTips);
-
     // Cleanup
     return () => {
       window.removeEventListener("showTips", handleShowTips);
