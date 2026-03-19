@@ -21,7 +21,6 @@ const Layout = () => {
   const location = useLocation();
   const getAuth = useAuthUser();
   const auth = getAuth();
-
   useEffect(() => {
     // Check last refresh time
     const lastRefresh = localStorage.getItem("lastAppRefresh");
