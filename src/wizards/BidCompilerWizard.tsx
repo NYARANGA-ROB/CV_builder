@@ -51,5 +51,4 @@ const BidCompilerWizard = () => {
     </div>
   );
 };
-
 export default BidCompilerWizard;
