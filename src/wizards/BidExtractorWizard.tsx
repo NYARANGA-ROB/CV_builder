@@ -44,7 +44,6 @@ const BidExtractorWizard = () => {
     const handleShowTips = () => {
       checkTourStatus();
     };
-
     window.addEventListener("showTips", handleShowTips);
 
     // Cleanup
