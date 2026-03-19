@@ -41,7 +41,6 @@ const BidExtractorWizard = () => {
     };
     // Check initial status
     checkTourStatus();
-
     // Listen for the custom event
     const handleShowTips = () => {
       checkTourStatus();
