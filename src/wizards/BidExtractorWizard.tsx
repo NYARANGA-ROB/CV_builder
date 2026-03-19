@@ -4,7 +4,6 @@ import CustomWizard from "./CustomWizard";
 
 const BidExtractorWizard = () => {
   const [isShow, setIsShow] = useState(false);
-
   const steps = [
     {
       elementId: "proposal-header",
