@@ -54,7 +54,6 @@ const Layout = () => {
     </>
   );
 };
-
 const App = () => {
   return (
     <AuthProvider authType={"localstorage"} authName={"sparkaichatbot"}>
