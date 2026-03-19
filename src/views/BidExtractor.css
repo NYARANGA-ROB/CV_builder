@@ -75,7 +75,6 @@
   position: relative;
   cursor: pointer;
 }
-
 .info-icon::after {
   content: attr(title);
   position: absolute;
