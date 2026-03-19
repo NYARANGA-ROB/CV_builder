@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Wizard from "react-onboarding";
 import CustomWizard from "./CustomWizard";
-
 const BidCompilerWizard = () => {
   const [isShow, setIsShow] = useState(false);
 
