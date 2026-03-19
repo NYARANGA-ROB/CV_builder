@@ -91,7 +91,6 @@
   pointer-events: none;
   white-space: nowrap;
 }
-
 .info-icon:hover::after {
   opacity: 1;
 }
