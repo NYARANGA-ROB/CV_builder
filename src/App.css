@@ -10,7 +10,6 @@
     /* 100vh / 0.8 */
     overflow: none !important;
 }
-
 @keyframes logo-spin {
     from {
         transform: rotate(0deg);
