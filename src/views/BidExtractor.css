@@ -95,7 +95,6 @@
 .info-icon:hover::after {
   opacity: 1;
 }
-
 .upload-placeholder {
   display: flex;
   align-items: center;
