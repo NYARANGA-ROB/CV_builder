@@ -41,7 +41,6 @@ const BidCompilerWizard = () => {
       window.removeEventListener("showTips", handleShowTips);
     };
   }, []);
-
   const handleClose = () => {
     setIsShow(false);
     localStorage.setItem("bidCompilerTourCompleted", "true");
