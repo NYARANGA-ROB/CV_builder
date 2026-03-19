@@ -46,7 +46,6 @@ const BidCompilerWizard = () => {
     setIsShow(false);
     localStorage.setItem("bidCompilerTourCompleted", "true");
   };
-
   return (
     <div className="dashboard-wizard-wrapper">
       <CustomWizard steps={steps} isShow={isShow} onClose={handleClose} />
