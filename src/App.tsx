@@ -10,7 +10,6 @@ import "./Widget.css";
 import SupportChat from "./components/SupportChat.tsx";
 import AutoLogout from "./components/auth/AutoLogout.tsx";
 import posthog from "posthog-js";
-
 ReactGA4.initialize("G-X8S1ZMRM3C");
 
 // Initialize PostHog at the app level
