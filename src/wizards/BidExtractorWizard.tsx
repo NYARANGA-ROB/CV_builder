@@ -39,7 +39,6 @@ const BidExtractorWizard = () => {
       const tourCompleted = localStorage.getItem("bidExtractorTourCompleted");
       setIsShow(tourCompleted === "false");
     };
-
     // Check initial status
     checkTourStatus();
 
