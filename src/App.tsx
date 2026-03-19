@@ -11,7 +11,6 @@ import SupportChat from "./components/SupportChat.tsx";
 import AutoLogout from "./components/auth/AutoLogout.tsx";
 import posthog from "posthog-js";
 ReactGA4.initialize("G-X8S1ZMRM3C");
-
 // Initialize PostHog at the app level
 posthog.init("phc_bdUxtNoJmZWNnu1Ar29zUtusFQ4bvU91fZpLw5v4Y3e", {
   api_host: "https://eu.i.posthog.com",
