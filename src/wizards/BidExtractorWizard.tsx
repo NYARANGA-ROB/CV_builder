@@ -33,7 +33,6 @@ const BidExtractorWizard = () => {
       position: "down"
     }
   ];
-
   useEffect(() => {
     const checkTourStatus = () => {
       const tourCompleted = localStorage.getItem("bidExtractorTourCompleted");
