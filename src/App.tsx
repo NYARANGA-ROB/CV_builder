@@ -41,7 +41,6 @@ const Layout = () => {
       });
     }
   }, [auth?.token]);
-
   const isAuthenticated = auth?.token !== undefined;
   return (
     <>
