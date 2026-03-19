@@ -29,7 +29,6 @@ const BidCompilerWizard = () => {
       const tourCompleted = localStorage.getItem("bidCompilerTourCompleted");
       setIsShow(tourCompleted === "false");
     };
-
     // Check initial status
     checkTourStatus();
 
