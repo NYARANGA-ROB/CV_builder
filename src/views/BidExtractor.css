@@ -260,7 +260,6 @@
   transform: translateX(-50%);
   font-weight: 400 !important;
 }
-
 .tooltip-container:hover .tooltip-text-cd {
   visibility: visible;
 }
