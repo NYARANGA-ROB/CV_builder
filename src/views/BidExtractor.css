@@ -419,7 +419,6 @@
   border: none;
   /* Ensure no border is applied on focus */
 }
-
 .requirements-textarea {
   height: 550px;
   /* Adjust to fit one line of text */
