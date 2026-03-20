@@ -105,7 +105,6 @@ const BidExtractor = () => {
   };
 
   const [isGeneratingOpportunity, setIsGeneratingOpportunity] = useState(false);
-
   const generateOpportunityInformation = async () => {
     if (!canUserEdit) {
       showViewOnlyMessage();
