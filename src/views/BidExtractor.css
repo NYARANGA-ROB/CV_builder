@@ -317,7 +317,6 @@
   font-weight: 450;
   /* Show ellipsis when text overflows */
 }
-
 .inputbox-textarea:focus {
   outline: none;
 }
