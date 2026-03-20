@@ -66,7 +66,6 @@ const BidExtractor = () => {
     setIsGeneratingCompliance(true);
     const formData = new FormData();
     formData.append("bid_id", object_id);
-
     try {
       const result = await axios.post(
         `http${HTTP_PREFIX}://${API_URL}/generate_compliance_requirements`,
