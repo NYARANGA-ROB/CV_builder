@@ -367,7 +367,6 @@
   /* Remove the border from here */
   /* Adjust the height as needed */
 }
-
 .same-height-card .card-header,
 .custom-grey-border .card-header {
   border-top: none;
