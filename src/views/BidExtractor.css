@@ -221,7 +221,6 @@
   display: flex;
   align-items: baseline;
 }
-
 .tooltip-container {
   position: relative;
   display: inline-flex;
