@@ -363,7 +363,6 @@
   border-bottom: 1px solid lightgray;
   /* Keep the bottom border */
 }
-
 .same-height-card .card-body,
 .custom-grey-border .card-body {
   border: none;
