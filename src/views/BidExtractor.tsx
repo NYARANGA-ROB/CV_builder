@@ -48,7 +48,6 @@ const BidExtractor = () => {
   const [existingBidNames, setExistingBidNames] = useState([]);
   const [organizationUsers, setOrganizationUsers] = useState([]);
   const [showContributorModal, setShowContributorModal] = useState(false);
-
   const [currentUserEmail, setCurrentUserEmail] = useState("");
   const currentUserPermission = contributors[auth.email] || "viewer"; // Default to 'viewer' if not found
   console.log("currentUserpermissionextract" + currentUserPermission);
