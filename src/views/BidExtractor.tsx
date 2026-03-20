@@ -79,7 +79,6 @@ const BidExtractor = () => {
           }
         }
       );
-
       setSharedState((prevState) => ({
         ...prevState,
         compliance_requirements: result.data.requirements
