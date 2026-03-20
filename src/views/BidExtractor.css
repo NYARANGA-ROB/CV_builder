@@ -387,7 +387,6 @@
   border: none;
   /* Ensure border is also removed if not needed */
 }
-
 .single-line-textarea:focus {
   outline: none;
   /* Remove blue outline on focus */
