@@ -57,7 +57,6 @@ const BidExtractor = () => {
     console.log(currentUserPermission);
     displayAlert("You only have permission to view this bid.", "danger");
   };
-
   const [isGeneratingCompliance, setIsGeneratingCompliance] = useState(false);
 
   const generateComplianceRequirements = async () => {
