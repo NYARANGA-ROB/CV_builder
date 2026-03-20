@@ -53,7 +53,6 @@ const BidExtractor = () => {
   console.log("currentUserpermissionextract" + currentUserPermission);
   const canUserEdit =
     currentUserPermission === "admin" || currentUserPermission === "editor";
-
   const showViewOnlyMessage = () => {
     console.log(currentUserPermission);
     displayAlert("You only have permission to view this bid.", "danger");
