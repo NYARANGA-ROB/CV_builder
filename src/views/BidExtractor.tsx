@@ -32,7 +32,6 @@ const BidExtractor = () => {
   const getAuth = useAuthUser();
   const auth = useMemo(() => getAuth(), [getAuth]);
   const tokenRef = useRef(auth?.token || "default");
-
   const { sharedState, setSharedState } = useContext(BidContext);
   const {
     bidInfo,
