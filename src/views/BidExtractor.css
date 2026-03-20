@@ -265,7 +265,6 @@
 .tooltip-container:hover .tooltip-text {
   visibility: visible;
 }
-
 .tooltip-icon-container {
   background-color: #dbd9d9;
   border-radius: 50%;
