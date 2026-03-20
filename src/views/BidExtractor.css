@@ -401,7 +401,6 @@
 .requirements-textarea:disabled {
   background-color: white;
 }
-
 .date-textarea {
   overflow: hidden;
   /* Hide extra content */
