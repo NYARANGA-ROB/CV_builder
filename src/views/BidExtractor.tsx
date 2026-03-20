@@ -41,7 +41,6 @@ const BidExtractor = () => {
     contributors,
     object_id
   } = sharedState;
-
   const location = useLocation();
   const bidData = location.state?.bid || "";
   const initialBidName = location.state?.bidName; // Retrieve bidName from location state
