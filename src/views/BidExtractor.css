@@ -262,7 +262,6 @@
 .tooltip-container:hover .tooltip-text-cd {
   visibility: visible;
 }
-
 .tooltip-container:hover .tooltip-text {
   visibility: visible;
 }
