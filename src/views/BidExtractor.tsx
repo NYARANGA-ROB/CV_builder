@@ -44,7 +44,6 @@ const BidExtractor = () => {
   const location = useLocation();
   const bidData = location.state?.bid || "";
   const initialBidName = location.state?.bidName; // Retrieve bidName from location state
-
   const [loading, setLoading] = useState(false);
 
   const [existingBidNames, setExistingBidNames] = useState([]);
