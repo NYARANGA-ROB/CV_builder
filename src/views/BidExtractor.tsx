@@ -64,7 +64,6 @@ const BidExtractor = () => {
       showViewOnlyMessage();
       return;
     }
-
     setIsGeneratingCompliance(true);
     const formData = new FormData();
     formData.append("bid_id", object_id);
