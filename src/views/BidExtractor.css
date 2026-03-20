@@ -450,7 +450,6 @@
   padding-left: 18px;
   /* Prevent resizing */
 }
-
 .requirements-textarea:focus {
   outline: none;
   /* Remove blue outline on focus */
