@@ -28,7 +28,6 @@ import {
   StyledSelect,
   StyledMenuItem
 } from "../components/StyledMuiComponents";
-
 const BidExtractor = () => {
   const getAuth = useAuthUser();
   const auth = useMemo(() => getAuth(), [getAuth]);
