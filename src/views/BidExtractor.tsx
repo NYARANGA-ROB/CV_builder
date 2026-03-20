@@ -126,7 +126,6 @@ const BidExtractor = () => {
           }
         }
       );
-
       setSharedState((prevState) => ({
         ...prevState,
         opportunity_information: result.data.opportunity_information
