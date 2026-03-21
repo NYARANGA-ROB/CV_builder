@@ -160,5 +160,4 @@ const CustomWizard = ({ steps, isShow, onClose }) => {
     </>
   );
 };
-
 export default CustomWizard;
