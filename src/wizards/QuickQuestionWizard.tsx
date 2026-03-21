@@ -3,7 +3,6 @@ import Wizard from "react-onboarding";
 import CustomWizard from "./CustomWizard";
 const QuickQuestionWizard = () => {
   const [isShow, setIsShow] = useState(false);
-
   const steps = [
     {
       elementId: "welcome",
