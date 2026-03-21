@@ -13,7 +13,6 @@ import { ArrowBack, ArrowForward } from "@mui/icons-material";
 const CustomWizard = ({ steps, isShow, onClose }) => {
   const [currentStep, setCurrentStep] = useState(0);
   const tooltipRef = useRef(null);
-
   useEffect(() => {
     if (isShow && steps.length > 0) {
       const targetElement = document.getElementById(
