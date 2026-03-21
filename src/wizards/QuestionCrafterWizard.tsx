@@ -72,5 +72,4 @@ const QuestionCrafterWizard = () => {
     </div>
   );
 };
-
 export default QuestionCrafterWizard;
