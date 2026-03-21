@@ -10,7 +10,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { ButtonGroup } from "@mui/material";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
-
 const CustomWizard = ({ steps, isShow, onClose }) => {
   const [currentStep, setCurrentStep] = useState(0);
   const tooltipRef = useRef(null);
