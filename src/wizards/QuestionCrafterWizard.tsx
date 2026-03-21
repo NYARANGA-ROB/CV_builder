@@ -67,7 +67,6 @@ const QuestionCrafterWizard = () => {
     setIsShow(false);
     localStorage.setItem("questionCrafterTourCompleted", "true");
   };
-
   return (
     <div className="dashboard-wizard-wrapper">
       <CustomWizard steps={steps} isShow={isShow} onClose={handleClose} />
