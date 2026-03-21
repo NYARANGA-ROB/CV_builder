@@ -62,7 +62,6 @@ const QuestionCrafterWizard = () => {
       window.removeEventListener("showTips", handleShowTips);
     };
   }, []);
-
   const handleClose = () => {
     setIsShow(false);
     localStorage.setItem("questionCrafterTourCompleted", "true");
