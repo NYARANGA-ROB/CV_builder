@@ -17,7 +17,6 @@ const QuickQuestionWizard = () => {
         "Need a fresh start?  To clear your chat, click this trash can button 🗑️ "
     }
   ];
-
   useEffect(() => {
     const checkTourStatus = () => {
       const tourCompleted = localStorage.getItem(
