@@ -61,7 +61,6 @@ const DashboardWizard = () => {
       window.removeEventListener("showTips", handleShowTips);
     };
   }, []);
-
   const handleClose = () => {
     setIsShow(false);
     localStorage.setItem("dashboardTourCompleted", "true");
