@@ -64,7 +64,6 @@ const DashboardWizard = () => {
     setIsShow(false);
     localStorage.setItem("dashboardTourCompleted", "true");
   };
-
   return (
     <div className="dashboard-wizard-wrapper">
       <CustomWizard steps={steps} isShow={isShow} onClose={handleClose} />
