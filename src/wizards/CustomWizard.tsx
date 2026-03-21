@@ -57,7 +57,6 @@ const CustomWizard = ({ steps, isShow, onClose }) => {
   if (!isShow || steps.length === 0) {
     return null;
   }
-
   const handleNext = () => {
     if (currentStep < steps.length - 1) {
       setCurrentStep(currentStep + 1);
