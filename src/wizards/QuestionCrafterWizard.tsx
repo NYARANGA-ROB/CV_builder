@@ -55,7 +55,6 @@ const QuestionCrafterWizard = () => {
     const handleShowTips = () => {
       checkTourStatus();
     };
-
     window.addEventListener("showTips", handleShowTips);
 
     // Cleanup
