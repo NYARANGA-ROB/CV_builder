@@ -27,7 +27,6 @@ const CustomWizard = ({ steps, isShow, onClose }) => {
           const targetRect = targetElement.getBoundingClientRect();
           const viewportHeight = window.innerHeight;
           const viewportWidth = window.innerWidth;
-
           // Calculate position
           let top = targetRect.bottom;
           let left = targetRect.left;
