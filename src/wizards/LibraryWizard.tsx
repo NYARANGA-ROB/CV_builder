@@ -53,7 +53,6 @@ const LibraryWizard = () => {
     setIsShow(false);
     localStorage.setItem("libraryTourCompleted", "true");
   };
-
   return (
     <div className="dashboard-wizard-wrapper">
       <CustomWizard steps={steps} isShow={isShow} onClose={handleClose} />
