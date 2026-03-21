@@ -48,7 +48,6 @@ h1 {
     width: 10px;
 }
 /* Adding padding to the track to prevent the thumb from touching the top and bottom */
-
 ::-webkit-scrollbar-track {
     background: none;
     padding-top: 10px;
