@@ -48,7 +48,6 @@ const DashboardWizard = () => {
       const tourCompleted = localStorage.getItem("dashboardTourCompleted");
       setIsShow(tourCompleted === "false");
     };
-
     // Check initial status
     checkTourStatus();
 
