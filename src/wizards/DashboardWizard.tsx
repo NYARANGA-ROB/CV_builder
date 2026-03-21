@@ -11,7 +11,6 @@ const DashboardWizard = () => {
         "Welcome to your Dashboard 👋 Here you can manage all your bids.",
       position: ""
     },
-
     {
       elementId: "sort-options",
       title: "Sort Options",
