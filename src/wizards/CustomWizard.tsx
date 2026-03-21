@@ -32,7 +32,6 @@ const CustomWizard = ({ steps, isShow, onClose }) => {
           // Calculate position
           let top = targetRect.bottom;
           let left = targetRect.left;
-
           // Adjust the tooltip based on the "position" (left or right)
           if (steps[currentStep].position === "left") {
             left = left - 50;
