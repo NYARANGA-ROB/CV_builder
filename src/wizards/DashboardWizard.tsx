@@ -55,7 +55,6 @@ const DashboardWizard = () => {
     const handleShowTips = () => {
       checkTourStatus();
     };
-
     window.addEventListener("showTips", handleShowTips);
 
     // Cleanup
