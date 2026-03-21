@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import CustomWizard from "./CustomWizard";
-
 const DashboardWizard = () => {
   const [isShow, setIsShow] = useState(false);
   const [isReady, setIsReady] = useState(false);
