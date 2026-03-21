@@ -70,5 +70,4 @@ const DashboardWizard = () => {
     </div>
   );
 };
-
 export default DashboardWizard;
