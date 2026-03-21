@@ -4,7 +4,6 @@ import CustomWizard from "./CustomWizard";
 const LibraryWizard = () => {
   const [isShow, setIsShow] = useState(false);
   const [isReady, setIsReady] = useState(false);
-
   const steps = [
     {
       elementId: "library-title",
