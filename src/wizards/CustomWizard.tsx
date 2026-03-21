@@ -46,7 +46,6 @@ const CustomWizard = ({ steps, isShow, onClose }) => {
           if (top + tooltipElement.offsetHeight > viewportHeight) {
             top = Math.max(0, viewportHeight - tooltipElement.offsetHeight);
           }
-
           tooltipElement.style.top = `${top}px`;
           tooltipElement.style.left = `${left}px`;
         }, 100); // Small delay to ensure scrolling has completed
