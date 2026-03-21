@@ -33,7 +33,6 @@ const Layout = () => {
       // Force refresh the page
       window.location.reload();
     }
-
     if (auth?.token) {
       console.log("User authenticated");
       posthog.identify(auth.email, {
