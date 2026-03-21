@@ -37,7 +37,6 @@ const LibraryWizard = () => {
       const tourCompleted = localStorage.getItem("libraryTourCompleted");
       setIsShow(tourCompleted === "false");
     };
-
     // Check initial status
     checkTourStatus();
 
