@@ -69,7 +69,6 @@ const CustomWizard = ({ steps, isShow, onClose }) => {
     }
   };
   const currentStepData = steps[currentStep];
-
   return (
     <>
       <div
