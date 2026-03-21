@@ -32,7 +32,6 @@ const LibraryWizard = () => {
         "Ready to get organized? Click here to create a new folder and start structuring your content like a pro! 🚀"
     }
   ];
-
   useEffect(() => {
     const checkTourStatus = () => {
       const tourCompleted = localStorage.getItem("libraryTourCompleted");
