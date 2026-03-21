@@ -44,7 +44,6 @@
   /* Light grey color */
   transition: color 0.2s ease;
 }
-
 .custom-wizard-back-button:hover {
   color: #444;
   /* Darker grey on hover */
