@@ -63,7 +63,6 @@ const CustomWizard = ({ steps, isShow, onClose }) => {
       onClose();
     }
   };
-
   const handlePrevious = () => {
     if (currentStep > 0) {
       setCurrentStep(currentStep - 1);
