@@ -49,7 +49,6 @@ const QuestionCrafterWizard = () => {
       );
       setIsShow(tourCompleted === "false");
     };
-
     // Check initial status
     checkTourStatus();
 
