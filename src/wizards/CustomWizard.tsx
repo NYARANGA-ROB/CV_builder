@@ -42,7 +42,6 @@ const CustomWizard = ({ steps, isShow, onClose }) => {
           } else if (steps[currentStep].position === "down") {
             top = top + 70;
           }
-
           // Ensure the tooltip stays within the viewport
           if (top + tooltipElement.offsetHeight > viewportHeight) {
             top = Math.max(0, viewportHeight - tooltipElement.offsetHeight);
