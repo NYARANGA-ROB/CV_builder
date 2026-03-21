@@ -43,7 +43,6 @@ const DashboardWizard = () => {
       position: "down"
     }
   ];
-
   useEffect(() => {
     const checkTourStatus = () => {
       const tourCompleted = localStorage.getItem("dashboardTourCompleted");
