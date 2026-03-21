@@ -22,7 +22,6 @@ const CustomWizard = ({ steps, isShow, onClose }) => {
       if (targetElement && tooltipElement) {
         // Scroll the target element into view
         targetElement.scrollIntoView({ behavior: "smooth", block: "center" });
-
         // Recalculate position after scrolling
         setTimeout(() => {
           const targetRect = targetElement.getBoundingClientRect();
