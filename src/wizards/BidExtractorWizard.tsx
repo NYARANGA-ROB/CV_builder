@@ -57,7 +57,6 @@ const BidExtractorWizard = () => {
     localStorage.setItem("bidExtractorTourCompleted", "true");
     s;
   };
-
   return (
     <div className="dashboard-wizard-wrapper">
       <CustomWizard steps={steps} isShow={isShow} onClose={handleClose} />
