@@ -56,7 +56,6 @@ const EllipsisMenuDashboard: React.FC<EllipsisMenuDashboardProps> = ({
         </MenuItem>
       </Menu>
     </div>
-    
   );
 };
 export default EllipsisMenuDashboard;
