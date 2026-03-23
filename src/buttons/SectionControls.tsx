@@ -89,8 +89,7 @@ const SectionControls: React.FC<SectionControlsProps> = ({
         </MenuItem>
       </Menu>
     </div>
-  );
-  
+  );  
 };
 export default SectionControls;
 
