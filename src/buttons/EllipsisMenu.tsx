@@ -5,6 +5,7 @@ import { faEllipsisVertical } from "@fortawesome/free-solid-svg-icons";
 import { Spinner } from "react-bootstrap";
 interface EllipsisMenuProps {
   filename: string;
+  
   unique_id: string;
   onDelete: () => void;
   availableFolders: string[];
