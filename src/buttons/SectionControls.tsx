@@ -90,6 +90,7 @@ const SectionControls: React.FC<SectionControlsProps> = ({
       </Menu>
     </div>
   );
+  
 };
 export default SectionControls;
 
