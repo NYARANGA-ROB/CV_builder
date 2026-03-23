@@ -50,6 +50,7 @@ const EllipsisMenuDashboard: React.FC<EllipsisMenuDashboardProps> = ({
           }
         }}
       >
+        
         <MenuItem onClick={handleDeleteClick} className="styled-menu-item">
           <i className="fas fa-trash-alt styled-menu-item-icon"></i>
           Delete Bid
