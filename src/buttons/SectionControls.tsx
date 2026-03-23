@@ -28,6 +28,7 @@ const SectionControls: React.FC<SectionControlsProps> = ({
   };
   const handleClose = () => {
     setAnchorEl(null);
+    
   };
   const handleAction = (action: () => void) => (event: React.MouseEvent) => {
     event.stopPropagation(); // Prevent row click event
