@@ -7,7 +7,6 @@
   <ProviderName>Contoso</ProviderName>
   
   <DefaultLocale>en-US</DefaultLocale>
-  
   <DisplayName DefaultValue="mytender.io wordpane"/>
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://word-prod.mytender.io/assets/icon-32.png"/>
