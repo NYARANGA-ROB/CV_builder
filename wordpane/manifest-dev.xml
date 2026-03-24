@@ -9,6 +9,7 @@
   <DefaultLocale>en-US</DefaultLocale>
   
   <DisplayName DefaultValue="wordpane"/>
+  
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://word-dev.mytender.io/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://word-dev.mytender.io/assets/icon-64.png"/>
