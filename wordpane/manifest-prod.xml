@@ -5,6 +5,7 @@
   <Version>1.0.0.1</Version>
   
   <ProviderName>Contoso</ProviderName>
+  
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="mytender.io wordpane"/>
   <Description DefaultValue="A template to get started."/>
