@@ -1,7 +1,6 @@
 require("@testing-library/jest-dom");
 require("dotenv").config({ path: ".env.test" });
 // Existing window.matchMedia mock
-
 Object.defineProperty(window, "matchMedia", {
   writable: true,
   value: jest.fn().mockImplementation((query) => ({
