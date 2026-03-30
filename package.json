@@ -16,7 +16,6 @@
         "test:run": "vitest run",
         "format": "prettier --write \"**/*.{ts,tsx,md,css,json,js,jsx}\"",
         "prepare": "husky"
-        
     },
     "dependencies": {
         "@cyntler/react-doc-viewer": "^1.17.0",
