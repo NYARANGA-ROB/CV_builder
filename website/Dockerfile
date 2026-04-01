@@ -18,7 +18,6 @@ COPY ["poetry.lock", "pyproject.toml", "./"]
 RUN poetry install --no-root
 # Copy project files
 COPY ["README.md", "Makefile", "./"]
-
 COPY mytenderweb mytenderweb
 
 COPY local local
