@@ -22,6 +22,7 @@ RUN poetry install --no-root
 COPY ["README.md", "Makefile", "./"]
 
 COPY mytenderweb mytenderweb
+
 COPY local local
 # Expose the Django development server port (adjust if needed)
 EXPOSE 8000
