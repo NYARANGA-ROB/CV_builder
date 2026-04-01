@@ -1,7 +1,6 @@
 install:
 	poetry install
 runserver:
-
 	poetry run python -m mytenderweb.manage runserver
 
 install-pre-commit:
