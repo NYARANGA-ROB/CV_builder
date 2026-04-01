@@ -24,7 +24,6 @@ COPY local local
 EXPOSE 8000
 # Set up the entrypoint
 COPY scripts/entrypoint.sh /entrypoint.sh
-
 RUN chmod a+x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
