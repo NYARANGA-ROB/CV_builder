@@ -1,5 +1,4 @@
 install:
-
 	poetry install
 
 runserver:
