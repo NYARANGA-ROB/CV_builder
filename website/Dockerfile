@@ -1,5 +1,6 @@
 # Use an official Python runtime as the base image
 FROM python:3.10.4-buster
+
 # Set the working directory in the container
 
 WORKDIR /opt/project
