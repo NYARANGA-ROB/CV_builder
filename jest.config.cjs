@@ -1,6 +1,5 @@
 module.exports = {
     preset: "ts-jest/presets/js-with-ts-esm",
-    
     testEnvironment: "jest-environment-jsdom",
     moduleNameMapper: {
         "\\.(css|less|scss|sass)$": "identity-obj-proxy",
