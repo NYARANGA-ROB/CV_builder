@@ -6,7 +6,6 @@ module.exports = {
         "\\.(jpg|jpeg|png|gif|webp|svg)$": "<rootDir>/__mocks__/fileMock.js"
     },
     setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
-    
     transform: {  
         
         "^.+\\.[tj]sx?$": ["ts-jest", {
