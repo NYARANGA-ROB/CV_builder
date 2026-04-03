@@ -10,7 +10,6 @@ module.exports = {
         "^.+\\.[tj]sx?$": ["ts-jest", {
             useESM: true,
             tsconfig: {
-                
                 module: "es2022" // Add this
             }
         }]
