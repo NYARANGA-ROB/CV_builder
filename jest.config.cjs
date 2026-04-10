@@ -15,6 +15,7 @@ module.exports = {
             }
         }]
     },
+    
     transformIgnorePatterns: ["node_modules/(?!(react-auth-kit|axios)/)"],
     moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
     extensionsToTreatAsEsm: [".ts", ".tsx"],
