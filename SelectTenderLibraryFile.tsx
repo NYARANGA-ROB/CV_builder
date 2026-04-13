@@ -23,6 +23,7 @@ const SelectTenderLibraryFile = ({
   const [documentListVersion, setDocumentListVersion] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
   const rowsPerPage = 6;
+  
   const [totalPages, setTotalPages] = useState(0);
   const [selectedFiles, setSelectedFiles] = useState(() => {
     const initialSelection = new Set([...initialSelectedFiles]);
