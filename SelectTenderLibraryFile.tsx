@@ -18,6 +18,7 @@ const SelectTenderLibraryFile = ({
   const auth = getAuth();
   
   const tokenRef = useRef(auth?.token || "default");
+  
   const [documents, setDocuments] = useState([]);
   const [documentListVersion, setDocumentListVersion] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
