@@ -27,6 +27,7 @@ const SelectTenderLibraryFile = ({
   const [selectedFiles, setSelectedFiles] = useState(() => {
     const initialSelection = new Set([...initialSelectedFiles]);
     return Array.from(initialSelection);
+    
   });
   const [isLoading, setIsLoading] = useState(true);
   const paginate = (pageNumber) => {
