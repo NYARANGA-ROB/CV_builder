@@ -44,7 +44,6 @@ const SelectTenderLibraryFile = ({
           }
         );
         console.log("tender library docs", response);
-        
         setDocuments(response.data.filenames);
         const pages = Math.ceil(response.data.filenames.length / rowsPerPage);
         setTotalPages(pages);
