@@ -11,7 +11,6 @@ import "../modals/SelectFolderModal.css";
 import { displayAlert } from "../helper/Alert";
 const SelectTenderLibraryFile = ({
   bid_id,
-  
   onFileSelect,
   
   initialSelectedFiles = []
