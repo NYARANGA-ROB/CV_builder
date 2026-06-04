@@ -19,6 +19,7 @@ Object.defineProperty(window, "matchMedia", {
     addListener: jest.fn(),
     
     removeListener: jest.fn(),
+    
     addEventListener: jest.fn(),
     removeEventListener: jest.fn(),
     dispatchEvent: jest.fn()
