@@ -34,7 +34,7 @@ const SelectTenderLibraryFile = ({
     setCurrentPage(pageNumber);
   };
   const fetchDocuments = async () => {
-    
+
     try {
       if (bid_id) {
         const response = await axios.post(
