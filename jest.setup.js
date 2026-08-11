@@ -5,7 +5,6 @@ require("dotenv").config({ path: ".env.test" });
 Object.defineProperty(window, "matchMedia", {
   
   writable: true,
-  
   value: jest.fn().mockImplementation((query) => ({
     matches: false,
     
